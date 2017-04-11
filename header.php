@@ -9,6 +9,10 @@
 
         <link href="/wp-content/themes/ffhmue/style.css" rel="stylesheet" type="text/css"/>
         <link href="/wp-content/themes/ffhmue/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 
         <?php
         wp_head();
