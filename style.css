@@ -12,17 +12,19 @@ Author: Kristian Stöckel
 }
 
 .alignright {
-	float: right;
+    float: right;
 }
 
 .alignleft {
-	float: left;
+    float: left;
 }
 
 body {
     background-color: #EEEEEE;
     background-image: url("./images/Freifunk.png");
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .clear { clear: both; }
