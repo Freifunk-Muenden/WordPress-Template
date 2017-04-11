@@ -188,3 +188,5 @@ footer .menu-footer-container ul li a {
 }
 footer .menu-footer-container ul li a:hover { color: #E81E77; }
 footer .menu-footer-container ul li+li:before { content: " | "; }
+
+img { max-width: 100%; }

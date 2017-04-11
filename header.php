@@ -7,8 +7,8 @@
 
         <title><?php echo (isset($page['title']) ? $page['title'] . ' | ' : ''); ?>Freifunk Hann. Münden</title>
 
-        <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo get_stylesheet_directory_uri(); ?>/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/wp-content/themes/ffhmue/style.css" rel="stylesheet" type="text/css"/>
+        <link href="/wp-content/themes/ffhmue/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
         <?php
         wp_head();
