@@ -7,9 +7,11 @@
 
         <title><?php echo (isset($page['title']) ? $page['title'] . ' | ' : ''); ?>Freifunk Hann. Münden</title>
 
-        <link href="/wp-content/themes/ffhmue/style.css" rel="stylesheet" type="text/css"/>
-        <link href="/wp-content/themes/ffhmue/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/wp-content/themes/ffhmue/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="/wp-content/themes/ffhmue/webfonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+        <link href="/wp-content/themes/ffhmue/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
@@ -26,10 +28,7 @@
                 </div>
                 <span id="title"><?php bloginfo('name'); ?></span>
                 <span id="subtitle">freies Mitmach-Netz • ohne Risiken • für alle</span>
-               <!-- <img src="/style/images/rathaus.png" alt="Rathaus Hann. Münden" style="float: right; height: 70px; position: absolute; bottom: 0;" />-->
             </div>
             <nav><div class="container"><?php wp_nav_menu(array('theme_location' => 'main-menu', 'depth' => '2')); ?></div></nav>
-            <?php
-            ?>
         </header>
         <div class="container whiteContainer rows" style="margin: 0 auto;">

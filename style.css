@@ -11,6 +11,7 @@ Author: Kristian Stöckel
     src: url('./webfonts/24CF2E_0_0.eot?#iefix') format('embedded-opentype'), url('./webfonts/24CF2E_0_0.woff') format('woff'), url('./webfonts/24CF2E_0_0.ttf') format('truetype'), url('./webfonts/24CF2E_0_0.svg#wf') format('svg');
 }
 
+
 .alignright {
     float: right;
 }
